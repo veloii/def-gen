@@ -16,6 +16,11 @@ describe('compiler', () => {
     const input = [{ person: { name: "John" } }];
     const expected: CompiledType = {
       object: {
+        otherPerson: {
+          object: {
+            name: { string: {} },
+          },
+        },
         person: {
           object: {
             name: { string: {} },
