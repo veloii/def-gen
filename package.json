@@ -14,6 +14,10 @@
     "valibot",
     "generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veloii/def-gen.git"
+  },
   "author": "Aria (veloii)",
   "license": "MIT",
   "exports": {
