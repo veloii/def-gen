@@ -13,7 +13,12 @@ describe('compiler', () => {
   });
 
   test('compiles a nested object', () => {
-    const input = [{ person: { name: "John" } }];
+    const input = [
+      {
+        person: { name: "John" },
+        otherPerson: { name: "John" },
+      }
+    ];
     const expected: CompiledType = {
       object: {
         otherPerson: {
