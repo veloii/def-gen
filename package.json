@@ -1,7 +1,7 @@
 {
   "name": "def-gen",
   "version": "0.1.0",
-  "description": "Generate TypeScript definitions and validation schemas from JSON objects",
+  "description": "A powerful tool to infer types from JavaScript values and generate code from these inferred types.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
