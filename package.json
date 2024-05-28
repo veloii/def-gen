@@ -30,9 +30,8 @@
     "def-gen": "./dist/cli.js"
   },
   "scripts": {
-    "test": "vitest",
     "cli": "pnpm build && ./dist/cli.js",
-    "coverage": "vitest --coverage",
+    "test": "vitest --coverage",
     "build": "pkgroll"
   },
   "devDependencies": {
