@@ -1,3 +1,5 @@
+/* v8 ignore start */
+
 import { cli } from 'cleye'
 import { TypeScriptGenerator, inferValues } from "."
 import type { CodeGenerator } from './generators'

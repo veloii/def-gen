@@ -9,7 +9,7 @@ function cleanOutput(output: string) {
   return output.replaceAll("\n", "").replaceAll(" ", "").replaceAll(";", "")
 }
 
-describe('typescriptGenerationTest', () => {
+describe('typescript generation test', () => {
   const baseGen = new TypeScriptGenerator()
 
   it("should handle union types", () => {
