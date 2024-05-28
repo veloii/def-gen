@@ -1,6 +1,6 @@
 {
   "name": "def-gen",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A powerful tool to infer types from JavaScript values and generate code from these inferred types.",
   "type": "module",
   "main": "./dist/index.cjs",
