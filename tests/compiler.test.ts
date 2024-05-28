@@ -12,11 +12,20 @@ describe('compiler', () => {
     expect(compileTypes(input)).toEqual(expected);
   });
 
+  test('throws on function', () => {
+    const input = [
+      () => { }
+    ];
+
+    expect(() => compileTypes(input)).toThrowError()
+  });
+
   test('compiles a nested object', () => {
+    const sharedObject = { name: "John" }
     const input = [
       {
-        person: { name: "John" },
-        otherPerson: { name: "John" },
+        person: sharedObject,
+        otherPerson: sharedObject,
       }
     ];
     const expected: CompiledType = {
