@@ -54,7 +54,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish to npm
-        run: pnpm publish --access public --no-git-checks
+        run: pnpm publish --access public --no-git-checks --provenance
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
