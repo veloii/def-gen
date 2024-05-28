@@ -1,5 +1,11 @@
 # def-gen
 
+[![npm package][npm-img]][npm-url]
+[![Build Status][build-img]][build-url]
+[![Downloads][downloads-img]][downloads-url]
+[![Issues][issues-img]][issues-url]
+[![Code Coverage][codecov-img]][codecov-url]
+
 A powerful tool to infer types from JavaScript values and generate code from these inferred types.
 
 > [!NOTE]  
@@ -173,3 +179,14 @@ Configuration for the TypeScript code generator.
 ## License
 
 MIT
+
+[build-img]: https://github.com/veloii/def-gen/actions/workflows/release.yml/badge.svg
+[build-url]: https://github.com/veloii/def-gen/actions/workflows/release.yml
+[downloads-img]: https://img.shields.io/npm/dt/def-gen
+[downloads-url]: https://www.npmtrends.com/def-gen
+[npm-img]: https://img.shields.io/npm/v/def-gen
+[npm-url]: https://www.npmjs.com/package/def-gen
+[issues-img]: https://img.shields.io/github/issues/veloii/def-gen
+[issues-url]: https://github.com/veloii/def-gen/issues
+[codecov-img]: https://codecov.io/gh/veloii/def-gen/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/veloii/def-gen
